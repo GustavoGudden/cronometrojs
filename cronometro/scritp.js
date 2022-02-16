@@ -7,9 +7,6 @@ let millisecond = 0;
 
 let cron;
 
-document.form_main.start.onclick = () => start();
-document.form_main.pause.onclick = () => pause();
-document.form_main.reset.onclick = () => reset();
 
 function start() {
     pause();
